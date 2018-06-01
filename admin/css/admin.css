@@ -1,0 +1,179 @@
+body{
+    box-sizing: border-box;
+    min-height: 100%;
+    background-color: #E0E0E0;
+    padding: 0;
+    margin: 0;
+    font-family: 'Arimo', sans-serif;
+}
+
+.admin-h{
+    background-color: #fff;
+    border-radius: 4px;
+    width: 100%;
+    height: 60px;
+    box-shadow:0px 5px 5px 0px rgba(50, 50, 50, 0.66);
+	display: table;
+}
+
+.aleft{
+    float: left;
+    margin-left: 10px;
+    width: 300px;
+    height: 500px;
+    background-color: #fff;
+    margin-top: 50px;
+    border-radius: 5px;
+    box-shadow:0px 5px 5px 0px rgba(50, 50, 50, 0.66);
+
+}
+
+
+h1{
+	text-align: center;
+	color: chocolate;
+}
+
+#out{
+	border:none;
+	background-color: crimson;
+	border-radius: 5px;
+	height: 30px;
+	width: 100px;
+	float: right;
+	margin-right: 20px;
+	margin-top: -55px;
+}
+
+#out a{
+	color: white;
+	text-decoration: none;
+}
+.mains{
+   width: 900px;
+    height: 530px;
+    margin-left: 350px;
+    margin-top: 50px;
+    box-shadow:0px 5px 5px 0px rgba(50, 50, 50, 0.66);
+	background-color: #fff;
+	overflow-y: scroll;
+}
+
+h2{
+    color: #9E9E9E;
+    font-weight: bold;
+    text-align: center;
+}
+
+.func{
+    width: 250px;
+    height: 420px;
+    background-color: #EFEBE9;
+    margin: 0 5px 0 5px;
+}
+
+ul li {
+    list-style: none;
+    font-size: 1.3em;
+    padding: 4px 0 4px 0;
+}
+
+ul li a{
+    text-decoration: none;
+    color:#FF9100;
+    transition:all ease-in-out .4s;
+}
+
+ul li a:hover{
+    background-color: #FFAB40;
+    color: white;
+    border-radius: 3px;
+}
+
+.form1{
+    width:500px;
+    min-height: 500px;
+    margin: 0 auto;
+    margin-top: 20px;
+    border-bottom: 2px solid #FF9800;
+}
+
+table{
+    width:400px;
+    height: 300px;
+    margin: 0 auto;
+    border-radius: 5px;
+}
+
+.form1 tr td input{
+    outline:none;
+    border-radius: 5px;
+    border:none;
+    height: 30px;
+    border:3px solid #ff9800;
+}
+
+.form1 tr td{
+	position:relative;
+	top: -80px;
+	left: 50px;
+}
+
+.add{
+    width:150px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #03A9F4;
+    color: white;
+    font-weight: 600;
+    transition:all ease-out .4s;
+	position: relative;
+	top: -250px;
+	left: 480px;
+}
+
+.add:hover{
+   background-color: #00C853;
+   transform:scale(1.2);
+}
+
+
+h3{
+    text-align: center;
+}
+
+.form2{
+    width:300px;
+    margin: 0 auto;
+}
+
+
+.form2 table tr{
+    text-align: left;
+}
+
+.form2 table{
+    width:500px;
+}
+
+tr td img{
+    width: 50px;
+}
+
+td{
+    width: 200px;
+    padding: 10px;
+}
+
+#prods{
+	width:450px;
+	height: 300px;
+}
+
+
+.form3{
+	width: 850px;
+}
+

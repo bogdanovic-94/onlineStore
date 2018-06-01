@@ -1,0 +1,559 @@
+/*
+1. Karakteristike za body definisan stil fonta
+ padding i margin za centriranje boja i minimalna visina
+*/
+
+body {
+    box-sizing: border-box;
+    font-family: 'Arimo', sans-serif;
+    padding: 0;
+    margin: 0;
+    background-color: #E0E0E0;
+    min-height: 100%;
+}
+
+
+
+/*
+2.header definisana sirina i visina,
+spojen sa gornjom ivicom,takodje
+jednostavan logo od html tagova
+
+
+*/
+
+.main-h {
+    width: 100%;
+    height: 90px;
+    background-color: #00E676;
+    overflow: hidden;
+}
+
+.logo-h {
+    color: white;
+    font-size: 3.3em;
+    margin-left: 620px;
+    display: inline;
+    position: relative;
+    top: 10px;
+    border: 3px solid #FF9800;
+}
+
+.action{
+    width:200px;
+    height: 80px;
+    margin-top: -70px;
+}
+
+ul{
+    list-style: none;
+
+}
+
+#srch{
+    color:#ffab40;
+    text-decoration: none;
+}
+
+ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.2em;
+    float: left;
+    padding: 6px;
+}
+
+ul li a:hover{
+    color:#FF9800;
+}
+
+.opts{
+    width:280px;
+    height: 50px;
+    float: right;
+    margin-right: 30px;
+    margin-top: -70px;
+}
+
+
+
+/*Search dugme */
+.search {
+    border: none;
+    border-radius: 5px;
+    height: 30px;
+    background-color: #FFF8E1;
+    cursor: pointer;
+}
+
+
+.search:hover {
+    background-color: #FF9800;
+    color: white;
+}
+
+
+.cart a {
+    color: white;
+    text-decoration: none;
+}
+
+.cart:hover{
+    background-color:dodgerblue;
+    transition: all ease-out .4s ;
+}
+
+.cart {
+    border: none;
+    outline: none;
+    height: 30px;
+    background-color: #FF9800;
+    color: white;
+    cursor: pointer;
+    border-radius: 4px;
+    width: 70px;
+    float: right;
+    position: absolute;
+    margin-left:10px;
+    margin-top: 6px;
+}
+.navbar {
+    width: 100%;
+    height: 50px;
+    background-color: white;
+    box-shadow: 0px 3px 7px 0px rgba(51, 50, 50, 0.76);
+    position: absolute;
+}
+
+
+/*div za stranicu koja prikazuje stvari
+iz korpe*/
+.cartable{
+    width: 100%;   
+}
+
+
+/*tabele u korpi*/
+.cartable form table{
+    width: 100%;
+    padding: 1%;
+    box-sizing: border-box;
+    margin-top: 40px;
+}
+
+.cartable form table tr th{
+    background-color: #bdbdbd;
+    color: white;
+}
+/* table data*/
+.cartable form table tr td{
+    height: 60px;
+    color:white;
+    font-weight:bold;
+    text-align: center;
+    background-color: #bdbdbd;
+}
+
+#pretraga{
+    border:none;
+    border-radius: 5px;
+    background-color: #fff;
+    width: 120px;
+    outline: none;
+    height: 40px;
+}
+
+#pretraga:focus{
+    background-color: #EF6C00;
+    transition: all ease-out .4s;
+    color: white;
+}
+
+
+/*update qty*/
+input[type=submit] {
+    padding:5px 15px;
+    margin-left: 5px;
+    background:#ccc; 
+    border:0 none;
+    cursor:pointer;
+    -webkit-border-radius: 5px;
+    border-radius: 5px; 
+    color:white;
+}
+
+
+input[type=text]{
+    
+    width:50px;
+}
+input[type=submit]:hover{
+    background-color: #42A5F5;
+    transition: all ease-in .4s;
+}
+
+/*slike u tabeli*/
+.cartable form table tr td img{
+   width: 65px;
+   height: 55px;   
+}
+
+ul li .navlinks {
+    color: black;
+    font-size: 1.2em;
+    margin-left: 50px;
+    margin-top: -10px;
+    padding-top: 10px;
+}
+
+ul li .navlinks:hover {
+    color: black;
+    border-bottom: 2px solid #ff9800;
+    transform: scale(1);
+    transition: all ease-out .4s;
+}
+
+.navlinkz .categories{
+    display: none;
+}
+
+.navbar .navlinkz :hover .categories{
+    display: block;
+    position: absolute;
+    width: 120px;
+    height: 150px;
+    background-color: #fff;
+    z-index: 5;
+}
+
+.categories{
+    border-radius: 5px;
+    margin-top: 30px;
+    margin-left: -40px;
+    border-top: 2px solid black;
+}
+
+
+.cats{
+    color: black;
+}
+
+.catlink{
+    color: black;
+    margin-top: -6px;
+}
+.slider{
+    width:100%;
+    background-color: black;
+    height: 420px;
+   position: relative;
+   top: 50px;
+}
+
+
+#bleft{
+    height: 1700px;
+    box-sizing: border-box;
+    width:80%;
+    background-color: #FFF;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+
+#bleft ul {
+    list-style: none;
+}
+
+#bleft ul li{
+    width:35%;
+    height: 390px;
+    border-radius: 5px;
+    border:3px solid #ff9800;
+    display: inline-block;
+    padding-right: 80px;
+    margin-left: 25px;
+    margin-top: 20px;
+    box-shadow: -2px 6px 8px 0px rgba(50, 50, 50, 0.75);
+        
+}
+
+
+.slider h3{
+    text-align: center;
+      color: white;
+}
+
+
+#back{
+    color: white;
+    text-decoration: none;
+}
+
+h2{
+    text-align: center;
+    color:white;
+    margin-top: 50px;
+   background-color: #424242;
+
+}
+
+
+.hp{
+    background-color: #424242;
+    color:white;
+    position: relative;
+    top: 20px;
+}
+
+h4{
+    color:#9e9e9e;
+    font-size: 1.4em;
+   text-align: center;
+    position: relative;
+    top:-40px;
+}
+
+
+.mixers{
+    width: 380px;
+    height: 370px;
+    margin-left:10px;
+    margin-top: -90px;
+}
+
+/*kupi dugme*/
+.buy{
+    background-color: #bdbdbd;
+    border-radius: 5px;
+    text-align: center;
+    cursor: pointer;
+    border:none;
+    outline: none;
+    width: 200px;
+    height:60px;
+    color: white;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.buy:hover{
+    background-color: #0091ea;
+    transition: all ease-in .3s;
+}
+
+
+/*nastavi kupovinu i zavrsi kupovinu*/
+#continue{
+    border: none;
+    background-color:#00C853;
+    outline: none;
+    cursor: pointer;
+    border-radius: 5px;
+    height: 30px;
+    color: white;
+    font-size: 1em;
+}
+#continue a {
+    color: white;
+    text-decoration: none;
+}
+
+#finish{
+     border: none;
+    background-color:#00B8D4;
+    outline: none;
+    cursor: pointer;
+    border-radius: 5px;
+    height: 30px;
+    color: white;
+    font-size: 1em;
+}
+
+#finish a{
+    color: white;
+    text-decoration: none;
+}
+ .window_pop{ 
+    width:100%;
+    height: 100%;
+    position: fixed;
+    z-index: 10;
+    top: 0;
+    left: 0;
+	display: none;
+    background: rgba(0,0,0,0.8);
+	 transform-origin: center;
+}
+
+
+.wp_content{
+    width: 600px;
+    height: 600px;
+    background-color: #fff;
+    border-radius: 5px;
+    position: absolute;
+    left: 30%;
+    top: 25%;
+	box-sizing: border-box;
+}
+
+.regform{
+	width:550px;
+	height: 550px;
+	margin: 0 auto;
+}
+
+.regform table{
+	display: block;
+	width: 70%;
+	margin: 0 auto;
+	margin-top: 10px;
+}
+.regform tr{
+	padding: 10px;
+	color: #01579b;
+	font-weight: bold;
+}
+
+.regform tr td input{
+	width: 200px;
+	height: 30px;
+	border: 3px solid #01579b;
+	border-radius: 5px;
+	outline:none;
+	margin-left: 10px;
+}
+
+input:focus{
+	background-color: #01579b;
+	transition: all ease-in-out .4s;
+	color: white;
+	font-size:1.1em;
+}
+
+#btn_close{
+	background-color: red;
+	color: white;
+	border-radius: 100px;
+	margin-left: 550px;
+	position: relative;
+	top: -260px;
+}
+
+
+.success{
+	width: 250px;
+	height: 50px;
+	background-color: #01579b;
+	margin-left: 170px;
+	border: none;
+	border-radius: 5px;
+	outline: none;
+	cursor: pointer;
+}
+
+.success a{
+	text-decoration: none;
+	color: white;
+	font-size: 1.2em;
+}
+
+.success:hover{
+	background-color: #0091ea;
+	transition: all ease-in-out .4s;
+	transform: scale(1.1);
+	transform-origin: center;
+}
+
+/*brisanje*/
+#remove{
+    color: white;
+    text-decoration: none;
+    background-color: #F44336;
+    border-radius: 4px;
+}
+
+/*footer dodiruje ivicu nema praznog prostora
+postignuto sa position absolute left righsvojstvom*/
+
+footer{
+    height: 70px;
+    width:100%;
+    background-color: #212121;
+    color: white;
+    position: absolute;
+    left: 0;
+    right: 0;
+    text-align: center;
+    margin-top: 40px;
+}
+
+
+/*loginwindow*/
+ .windowsl_pop{ 
+    width:100%;
+    height: 100%;
+    position: fixed;
+    z-index: 10;
+    top: 0;
+    left: 0;
+	display: none;
+    background: rgba(0,0,0,0.8);
+	transform-origin: center;
+}
+
+.wpl_content{
+    width: 500px;
+    height: 200px;
+    background-color: #fff;
+    border-radius: 5px;
+    position: absolute;
+    left: 30%;
+    top: 25%;
+	box-sizing: border-box;
+}
+
+
+.logform{
+	width:500px;
+	height: 300px;
+	margin: 0 auto;
+}
+
+.logform table{
+	display: block;
+	width: 70%;
+	margin: 0 auto;
+	margin-top: 10px;
+}
+.logform tr{
+	padding: 10px;
+	color: #01579b;
+	font-weight: bold;
+}
+
+.logform tr td input{
+	width: 200px;
+	height: 30px;
+	border: 3px solid #01579b;
+	border-radius: 5px;
+	outline:none;
+	margin-left: 10px;
+}
+
+input:focus{
+	background-color: #01579b;
+	transition: all ease-in-out .4s;
+	color: white;
+	font-size:1.1em;
+}
+
+
+#btnl_close{
+	text-decoration: none;
+	background-color: red;
+	border-radius: 100px;
+	 margin-left: 480px;
+	position: relative;
+	top: -130px;
+}
